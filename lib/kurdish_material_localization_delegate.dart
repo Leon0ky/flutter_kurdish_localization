@@ -38,8 +38,8 @@ class _KurdishMaterialLocalizationsDelegate
         // this map and the only way to work around this is to use a listed
         // locale's NumberFormat symbols. So, here we use the number formats
         // for 'ar' instead.
-        decimalFormat: intl.NumberFormat('#,##0.###', 'ar'),
-        twoDigitZeroPaddedFormat: intl.NumberFormat('00', 'ar'),
+        decimalFormat: intl.NumberFormat('#,##0.###', 'en_US'),
+        twoDigitZeroPaddedFormat: intl.NumberFormat('00', 'en_US'),
       ),
     );
   }
