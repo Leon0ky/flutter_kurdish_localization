@@ -1,0 +1,53 @@
+{
+  "active": true,
+  "backgroundColor": "0xfff1c40f",
+  "bypassedCountries": ["jo"],
+  "fontColor": "0xFFFFFFFF",
+  "theme": {
+    "light": {
+      "backgroundColor": "0xfff1c40f",
+      "fontColor": "0xFFFFFFFF"
+    },
+    "dark": {
+      "backgroundColor": "0xfff1c40f",
+      "fontColor": "0xFFFFFFFF"
+    }
+  },
+  "showCallToActionIcon": true,
+  "url":"https://www.paypal.com/donate/?hosted_button_id=9TGTEMA3NWPRL" ,
+  "en": {
+    "title": "The last 10 days of Ramadan, when rewards are multiplied 🌙✨\n",
+    "body": "The Sadaqah Jariyah awaits you here ❤️"
+  },
+  "fr": {
+    "title": "Les 10 derniers jours de Ramadan, où les récompenses se multiplient 🌙✨\n",
+    "body": "La Sadaqa Jariyah vous attend ici ❤️"
+  },
+  "ar": { 
+     "title": "العشر الأواخر من رمضان، أيام تتضاعف فيها الأجور 🌙✨\n",
+     "body": "الصدقة الجارية بانتظارك هنا ❤️"
+  },
+  "de": {
+    "title": "Die letzten 10 Tage des Ramadan, in denen die Belohnungen vervielfacht werden 🌙✨\n",
+    "body": "Die Sadaqah Jariyah erwartet dich hier ❤️"
+  },
+  "it": {
+    "title": "Gli ultimi 10 giorni di Ramadan, quando le ricompense si moltiplicano 🌙✨\n",
+    "body": "Fai una donazione qui per farlo durare ❤"
+  },
+  "es": {
+    "title": "Los últimos 10 días de Ramadán, cuando las recompensas se multiplican 🌙✨\n",
+    "body": "La Sadaqa Jariyah te espera aquí ❤️"
+  },
+  "nl": {
+    "title": "De laatste 10 dagen van Ramadan, waarin de beloningen worden vermenigvuldigd 🌙✨\n",
+    "body": "De Sadaqah Jariyah wacht hier op je ❤️"
+  },
+  "donateButton": {
+    "active": false,
+    "en": {
+      "title": "Keep MAWAQIT free without Ads",
+      "body": "Help MAWAQIT to continue and be always as a WAQF by making a donation."
+    }
+  }
+}
