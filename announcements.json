@@ -1,7 +1,7 @@
 {
   "active": true,
   "backgroundColor": "0xfff1c40f",
-  "bypassedCountries": ["jo","eg"],
+  "bypassedCountries": ["jo"],
   "fontColor": "0xFFFFFFFF",
   "theme": {
     "light": {
