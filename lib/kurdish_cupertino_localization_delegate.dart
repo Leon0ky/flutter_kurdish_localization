@@ -284,16 +284,6 @@ class KurdishCupertinoLocalizations extends GlobalCupertinoLocalizations {
     required super.singleDigitSecondFormat,
   });
 
-// #docregion Getters
-
-  @override
-  String get alertDialogLabel => r'ئاگادارکردنەوە';
-
-// #enddocregion Getters
-
-  @override
-  String get anteMeridiemAbbreviation => r'پ.ن';
-
   @override
   String get copyButtonLabel => r'کۆپی';
 
@@ -306,8 +296,6 @@ class KurdishCupertinoLocalizations extends GlobalCupertinoLocalizations {
   @override
   String get pasteButtonLabel => r'پەیست';
 
-  @override
-  String get postMeridiemAbbreviation => r'د.ن';
 
   @override
   String get selectAllButtonLabel => r'دیاریکردنی هەموو';
@@ -315,12 +303,7 @@ class KurdishCupertinoLocalizations extends GlobalCupertinoLocalizations {
   static const LocalizationsDelegate<CupertinoLocalizations> delegate =
       KurdishCupertinoLocalizationsDelegate();
 
-  @override
-  String get datePickerDateOrderString => "هەڵبژاردنی بەروار";
-
-  @override
-  String get datePickerDateTimeOrderString => "کات هەڵبژێرە";
-
+ 
   @override
   String? get datePickerHourSemanticsLabelOther => "کاتژمێری هەڵبژاردنی بەروار";
 
@@ -328,39 +311,9 @@ class KurdishCupertinoLocalizations extends GlobalCupertinoLocalizations {
   String? get datePickerMinuteSemanticsLabelOther => "خولەکی هەڵبژاردنی بەروار";
 
   @override
-  String get searchTextFieldPlaceholderLabel => "گەڕان";
-
-  @override
-  String get tabSemanticsLabelRaw => "ماناسازی تاب";
-
-  @override
-  String? get timerPickerHourLabelOther => "هەڵبژێرەری کاتژمێر";
-
-  @override
-  String? get timerPickerMinuteLabelOther => "هەڵبژێرەری خولەک";
-
-  @override
-  String? get timerPickerSecondLabelOther => "هەڵبژێرەری چرکە";
-
-  @override
-  String get todayLabel => "ئەمڕۆ";
-
-  @override
   String get noSpellCheckReplacementsLabel =>
       "هیچ جێگرەوەیەکی پشکنینی ڕێنووسی نییە";
 
-  @override
-  String get lookUpButtonLabel => 'بە دوادا گەڕان';
-
-  @override
-  String get menuDismissLabel => 'بەلاوە نان';
-
-  @override
-  String get searchWebButtonLabel => 'گەڕان لە وێب';
-
-  @override
-  String get shareButtonLabel => 'هاوبەشکردن';
-  
   @override
   String get clearButtonLabel => "";
 
@@ -428,7 +381,5 @@ class KurdishCupertinoLocalizations extends GlobalCupertinoLocalizations {
   @override
   String get shareButtonLabel => 'هاوبەشکردن';
   
-  // Add this new method:
-  @override
-  String get pasteButtonLabel => 'لکاندن';
+
 }
