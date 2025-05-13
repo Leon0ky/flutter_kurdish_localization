@@ -363,4 +363,72 @@ class KurdishCupertinoLocalizations extends GlobalCupertinoLocalizations {
   
   @override
   String get clearButtonLabel => "";
+
+  // Add these new required methods to KurdishCupertinoLocalizations class:
+  
+  @override
+  String get timerPickerHourLabelsOne => 'کاتژمێر';
+  @override
+  String get timerPickerHourLabelsOther => 'کاتژمێر';
+  @override
+  String get timerPickerMinuteLabelsOne => 'خولەک';
+  @override
+  String get timerPickerMinuteLabelsOther => 'خولەک';
+  @override
+  String get timerPickerSecondLabelsOne => 'چرکە';
+  @override
+  String get timerPickerSecondLabelsOther => 'چرکە';
+  
+  @override
+  String get todayLabel => 'ئەمڕۆ';
+  
+  @override
+  String get searchTextFieldPlaceholderLabel => 'گەڕان';
+  
+  @override
+  String get datePickerDateOrderString => 'بەروار';
+  @override
+  String get datePickerDateTimeOrderString => 'کات';
+  
+  @override
+  String get anteMeridiemAbbreviation => 'پ.ن';
+  @override
+  String get postMeridiemAbbreviation => 'د.ن';
+  
+  @override
+  String get alertDialogLabel => 'ئاگادارکردنەوە';
+  
+  @override
+  String get tabSemanticsLabelRaw => r'تاب $tabIndex لە $tabCount';
+  
+  @override
+  String? get timerPickerHourLabelOther => 'کاتژمێر';
+  @override
+  String? get timerPickerMinuteLabelOther => 'خولەک';
+  @override
+  String? get timerPickerSecondLabelOther => 'چرکە';
+  
+  // Add these new keyboard key labels:
+  @override
+  String get keyboardKeyAlt => 'Alt';
+  @override
+  String get keyboardKeyControl => 'Control';
+  @override
+  String get keyboardKeyMeta => 'Meta';
+  @override
+  String get keyboardKeyShift => 'Shift';
+  
+  // Add these new menu labels:
+  @override
+  String get menuDismissLabel => 'داخستن';
+  @override
+  String get searchWebButtonLabel => 'گەڕان لە وێب';
+  @override
+  String get lookUpButtonLabel => 'گەڕان';
+  @override
+  String get shareButtonLabel => 'هاوبەشکردن';
+  
+  // Add this new method:
+  @override
+  String get pasteButtonLabel => 'لکاندن';
 }
