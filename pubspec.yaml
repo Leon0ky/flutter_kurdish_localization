@@ -14,7 +14,7 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  intl: ^0.19.0  # Keep only one (preferably the newer version)
+  intl: ^0.19.0  # preferably the newer version
   plugin_platform_interface: ^2.0.2
 
 dev_dependencies:
