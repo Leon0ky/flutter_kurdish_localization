@@ -1,49 +1,41 @@
+// Replace the entire file with:
 import 'dart:async';
-
 import 'package:flutter/widgets.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
-
-class _KurdishMaterialLocalizationsDelegate
-    extends LocalizationsDelegate<WidgetsLocalizations> {
-  const _KurdishMaterialLocalizationsDelegate();
-
-  @override
-  bool isSupported(Locale locale) => locale.languageCode == 'ku';
-
-  @override
-  Future<WidgetsLocalizations> load(Locale locale) async {
-    return SynchronousFuture<WidgetsLocalizations>(
-      KurdishWidgetLocalizations(),
-    );
-  }
-
-  @override
-  bool shouldReload(_KurdishMaterialLocalizationsDelegate old) => false;
-}
 
 class KurdishWidgetLocalizations extends WidgetsLocalizations {
-  static const LocalizationsDelegate<WidgetsLocalizations> delegate =
-      _KurdishMaterialLocalizationsDelegate();
+  const KurdishWidgetLocalizations();
 
   @override
   TextDirection get textDirection => TextDirection.rtl;
 
   @override
-  String get reorderItemDown => throw UnimplementedError();
+  String get reorderItemDown => 'بڕۆ خوارەوە';
+  @override
+  String get reorderItemLeft => 'بڕۆ لای چەپ';
+  @override
+  String get reorderItemRight => 'بڕۆ لای راست';
+  @override
+  String get reorderItemToEnd => 'بڕۆ کۆتایی';
+  @override
+  String get reorderItemToStart => 'بڕۆ سەرەتا';
+  @override
+  String get reorderItemUp => 'بڕۆ سەرەوە';
+}
+
+class _KurdishWidgetLocalizationsDelegate 
+    extends LocalizationsDelegate<WidgetsLocalizations> {
+  const _KurdishWidgetLocalizationsDelegate();
 
   @override
-  String get reorderItemLeft => throw UnimplementedError();
+  bool isSupported(Locale locale) => locale.languageCode == 'ku';
 
   @override
-  String get reorderItemRight => throw UnimplementedError();
+  Future<WidgetsLocalizations> load(Locale locale) {
+    return SynchronousFuture<WidgetsLocalizations>(
+      const KurdishWidgetLocalizations(),
+    );
+  }
 
   @override
-  String get reorderItemToEnd => throw UnimplementedError();
-
-  @override
-  String get reorderItemToStart => throw UnimplementedError();
-
-  @override
-  String get reorderItemUp => throw UnimplementedError();
+  bool shouldReload(_KurdishWidgetLocalizationsDelegate old) => false;
 }
