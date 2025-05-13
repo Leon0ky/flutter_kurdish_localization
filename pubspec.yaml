@@ -5,8 +5,8 @@ homepage: https://github.com/aminsamad/flutter_kurdish_localization
 
 
 environment:
-  sdk: '>=3.4.3 <4.0.0'
-  flutter: ">=1.17.0"
+  sdk: '>=3.0.0 <4.0.0'  # Updated SDK constraint
+  flutter: ">=3.0.0"     # Updated Flutter constraint
 
 dependencies:
   flutter:
@@ -15,6 +15,7 @@ dependencies:
 
   flutter_localizations:
     sdk: flutter
+  intl: ^0.18.0          # Updated intl version
 
   
       
