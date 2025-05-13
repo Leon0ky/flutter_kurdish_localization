@@ -1,5 +1,5 @@
-// Replace the entire file with:
 import 'dart:async';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 
 class KurdishWidgetLocalizations extends WidgetsLocalizations {
