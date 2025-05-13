@@ -77,24 +77,6 @@ class KurdishMaterialLocalizations extends GlobalMaterialLocalizations {
   @override
   String get aboutListTileTitleRaw => 'دەربارەی \$applicationName';
         
-    @override
-    String get scanTextButtonLabel => 'دەقی سکانکردن';
-    
-    @override
-    String get menuBarMenuLabel => 'پێڕست';
-    
-    @override
-    String get modalBarrierDismissLabel => 'دەرکردن';
-    
-    @override
-    String get collapsedHint => 'شاردراوە';
-    @override
-    String get expandedHint => 'فراوانکراوە';
-    
-    @override
-    String get scrimLabel => 'پەردە';
-    @override
-    String get scrimOnTapHintRaw => 'پەنجە بنێ بۆ داخستن';
   @override
   String get alertDialogLabel => 'ئاگادارکردنەوە';
 
